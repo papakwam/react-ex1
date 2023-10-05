@@ -1,0 +1,36 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .counter-buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .counter-buttons button {
+    margin-bottom: 10px;
+  }
+  
+  .counter-display {
+    flex: 1;
+    text-align: right;
+    position: relative;
+  }
+  
+  .counter-border {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 100px;
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  .counter-display h2 {
+    margin: 0;
+  }
+  
